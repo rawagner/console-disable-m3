@@ -6,7 +6,7 @@ Dynamic plugin for OpenShift Console to disable metal3 static plugin
 You can deploy the plugin to a cluster by applying `manifest.yaml`.
 
 ```sh
-oc apply -f manifest.yaml
+USER=rawagner oc apply -f manifest.yaml
 ```
 
 Once deployed, patch the
